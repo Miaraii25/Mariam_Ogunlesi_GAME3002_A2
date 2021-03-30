@@ -14,7 +14,6 @@ public class GameManager : MonoBehaviour
     public Transform SpawnPoint;
     public Transform MultiSpawnPoint;
 
-    //public TargetSet targetSet1;
     bool GameStarted;
 
 

@@ -18,7 +18,6 @@ public class Event
     public int AmountToComplete;
     public int CurrentAmount;
 
-    // Start is called before the first frame update
     public void ResetEvent()
     {
         if (resetOnComplete)
