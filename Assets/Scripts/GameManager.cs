@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     {
         currentBallAmount = startBallAmount;
         UIManager.instance.UpdateBallText(currentBallAmount);
-
+        EventManager.instance.ResetAllEvent();
         CreateNewBall();
     }
 
